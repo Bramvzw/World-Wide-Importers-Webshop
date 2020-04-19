@@ -1,0 +1,643 @@
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.fill-box {
+    margin-left: 400px;
+}
+/* Account: */
+/* dropdown Account */
+.dropdown:hover .account-link {
+    display: block;
+}
+.account {
+    padding: 0;
+    margin: 0;
+    top: -8px;
+
+}
+.shcart {
+    padding: 0;
+    margin-right: 30px;
+    top: -8px;
+}
+/* icon account & shoppingcart */
+.imageBox {
+    position: relative;
+    float: left;
+}
+.imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.imageBox:hover .hoverImg {
+    display: block;
+}
+.acc-icon {
+    position: relative;
+    top: 30px;
+    right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.sh-icon {
+    position: relative;
+    top: 30px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+/* meer naar links nav-bar */
+.ml-auto-fixed {
+    margin-right: 70px;
+}
+
+/* search bar */
+.search-box,.close-icon,.search-wrapper {
+    position: relative;
+    padding: 10px;
+}
+.search-wrapper {
+    min-width: 14rem;
+    flex-grow: 1;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    outline: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 #000000;
+    width: 100%;
+    max-width: 380px;
+}
+.search-box:focus {
+    box-shadow: 0 0 15px 5px #b0e0ee;
+    border: 2px solid #bebede;
+}
+/* reset button in search bar */
+.close-icon {
+    position: absolute;
+    border:1px solid transparent;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    cursor: pointer;
+    width: 1px;
+    height: 1px;
+    top: 22px;
+    left: 350px;
+
+
+}
+.close-icon:after {
+    content: "X";
+    display: block;
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    background-color: #FA9595;
+    z-index:1;
+    bottom: 0;
+    margin: auto;
+    padding: 2px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+    box-shadow: 0 0 2px #E50F0F;
+    cursor: pointer;
+}
+.search-box:not(:valid) ~ .close-icon {
+    display: none;
+}
+
+
+.ml-auto-fixed {
+    margin-right: 70px;
+
+}
+.btn-outline-success {
+    width: 70px;
+    height: 40px;
+}
+
+.footer-bottom {
+    bottom:0;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+/* homepage 1st row 'OP = OP!' */
+.head-ban1 {
+    margin: 20px 10px 0;
+    color: #00bcf3;
+}
+
+/* Shopping cart */
+.title-sh {
+    margin-left: 20px;
+    font-size: 30px;
+}
+.box-sh {
+    border: 2px solid #000000;
+    margin: 20px 20px 20px;
+    height: 600px;
+    width: 900px;
+    background: #e3e3e3;
+}
+.head-sh {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+}
+.product-sh {
+    margin: 5px 0 10px 20px;
+    height: 100%;
+    width: 100%;
+}
+.aantal-sh {
+    margin: 5px 0 10px 500px;
+}
+.prijs-sh {
+    margin: 5px 0 10px 130px;
+}
+.upper-image-sh {
+    position: relative;
+    top: 0;
+    left: -760px;
+    height: 80px;
+    width: 80px;
+}
+.upper-image-sh1 {
+    position: relative;
+    top: 0;
+    left: 13px;
+    height: 80px;
+    width: 80px;
+}
+.white-standbox-sh {
+    background: #fff;
+    position: relative;
+    top: 50px;
+    margin: 0 20px 10px;
+    border: 2px solid #000000;
+    height: 80px;
+    width: 860px;
+}
+.count-sh {
+    position: relative;
+    left: 0;
+    width: 35px;
+    margin: 0 10px 0;
+}
+.upper-box-sh {
+    border: 2px solid #000000;
+    position: relative;
+    top: -77.5px;
+    left: 120px;
+    height: 70px;
+    width: 410px;
+    background: #e3e3e3
+}
+.middle-box-sh {
+    border: 2px solid #000000;
+    position: relative;
+    top: -82px;
+    left: 420px;
+    height: 70px;
+    width: 300px;
+    background: #e3e3e3;
+
+}
+.bedrag-sh {
+    position: relative;
+    left: 210px;
+    top: -30px;
+}
+.prul {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: inherit;
+}
+
+/* footer: */
+/* footer placement bottom */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
+    position: relative;
+    bottom: auto;
+    width: 100%;
+    margin-top: 100px;
+    clear:both;
+
+
+}
+
+/* body:*/
+/* homepage product boxes display */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+}
+
+.banner {
+    position: relative;
+    height: 360px;
+    min-width: 300px;
+    margin: 30px 35px 10px;
+    display: -ms-flexbox;
+    display: inline-block;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid #1d2124;
+}
+/* homepage product boxes hover */
+.banner:hover {
+    color: #000000;
+    background-color: #e3e3e3;
+    border-color: #0062cc;
+    float: none;
+}
+
+/* homepage product 1st row-box  */
+/* product img */
+.imgban-1 {
+    margin: 5px 30px 0;
+    border-bottom: 2px solid black;
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+/* product price */
+.imgban-1-pr {
+    color: red;
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+/* product title */
+.imgban-1-title {
+    font-size: 20px;
+    position: absolute;
+    top: 255px;
+}
+/* product link 'Ga naar product' */
+.link-imgban-1 {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+/* homepage 1st row 'OP = OP!' */
+.head-ban1 {
+    margin: 20px 10px 0;
+    color: #00bcf3;
+}
+
+/* Shopping cart */
+.title-sh {
+    margin-left: 20px;
+    font-size: 30px;
+}
+.box-sh {
+    border: 2px solid #000000;
+    margin: 20px 20px 20px;
+    height: 600px;
+    width: 900px;
+    background: #e3e3e3;
+}
+.head-sh {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+}
+.product-sh {
+    margin: 5px 0 10px 20px;
+    height: 100%;
+    width: 100%;
+}
+.aantal-sh {
+    margin: 5px 0 10px 500px;
+}
+.prijs-sh {
+    margin: 5px 0 10px 130px;
+}
+.upper-image-sh {
+    position: relative;
+    top: 0;
+    left: -760px;
+    height: 80px;
+    width: 80px;
+}
+.upper-image-sh1 {
+    position: relative;
+    top: 0;
+    left: 13px;
+    height: 80px;
+    width: 80px;
+}
+.white-standbox-sh {
+    background: #fff;
+    position: relative;
+    top: 50px;
+    margin: 0 20px 10px;
+    border: 2px solid #000000;
+    height: 80px;
+    width: 860px;
+}
+.count-sh {
+    position: relative;
+    left: 0;
+    width: 35px;
+    margin: 0 10px 0;
+}
+.upper-box-sh {
+    border: 2px solid #000000;
+    position: relative;
+    top: -77.5px;
+    left: 120px;
+    height: 70px;
+    width: 410px;
+    background: #e3e3e3
+}
+.middle-box-sh {
+    border: 2px solid #000000;
+    position: relative;
+    top: -82px;
+    left: 420px;
+    height: 70px;
+    width: 300px;
+    background: #e3e3e3;
+
+}
+.bedrag-sh {
+    position: relative;
+    left: 210px;
+    top: -30px;
+}
+.prul {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: inherit;
+
+}
+
+
+/*login.php*/
+.form-signin2 {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+.form-signin {
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin input[type="all"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* search.php */
+.product-grid{font-family:Raleway,sans-serif;text-align:center;padding:0 0 72px;border:1px solid rgba(0,0,0,.1);overflow:hidden;position:relative; z-index:1; margin: 0 0 30px 0;}
+.product-grid .product-image img{width:85% ;height: 250px;}
+.product-grid .product-discount-label, .product-new-label,.product-grid .product-opisop-label{color:#fff;background-color:#00bcf3;font-size:12px;text-transform:uppercase;padding:2px 7px;display:block;position:absolute;top:10px;left:0}
+.product-grid .product-discount-label{background-color:#333;left:auto;right:0}
+.product-grid .product-opisop-label{color:#fff;background-color:red;top:auto}
+.product-grid .product-content{background-color:#fff;text-align:center;padding:12px 0;margin-bottom: -80px;left:0;right:0;z-index:1; height: 170px;}
+.product-grid .title1{font-size:16px;font-weight:400; text-transform:capitalize;transition:all .3s ease 0s; position: relative; top: 20px;}
+.product-grid .title1 a{color:black;}
+.product-grid .price-o{color:red;font-size:17px;font-family:Montserrat,sans-serif;font-weight:700;}
+.product-grid .price-n{color:#999;font-size:13px;font-weight:400;text-decoration:line-through;margin-left:3px;display:inline-block;}
+.product-grid .add-to-cart{color:#000;font-size:13px;font-weight:600; position: absolute; top: 360px; left:20px; }
+
+/*product.php*/
+.product-pagina-aantal{
+max-width: 100px;
+
+}
+
+.knop-product{
+    max-height: 40px;
+    margin-left: 50px;
+}
+
+
+.strike {
+    position: relative;
+    font-style: italic;
+}
+.strike:before {
+    color: red;
+    
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+}
+.help {
+    padding: 10px 20px;
+}
+
+.prijs-style {
+    font-size: large;
+}
+
+/* Shopping_cart.php css */
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.container-fluid {
+    border-bottom: 1px solid #E1E8EE;
+}
+
+
+.sh-img {
+    height: 100%;
+    width: 100%;
+    margin-left: 30px;
+}
+.sh-link {
+    height: 30%;
+    width: 160px;
+}
+.sh-titel {
+    margin: 20px 0 0 80px;
+
+}
+.sh-ul {
+    font-size: 18px;
+    color: gray;
+    margin: 10px 0 0 0;
+    position: relative;
+    right: 30px;
+}
+
+
+
+
+.input-number-group .input-number-decrement,
+.input-number-group .input-number-increment {
+    display: inline-block;
+    width: 40px;
+    background: #e6e6e6;
+    color: #0a0a0a;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+/* shoppingcart prijs */
+.sh-prijs {
+    position: relative;
+    padding: 10px;
+    color: black;
+}
+.sh-update {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 80px;
+}
+.sh-delete{
+    width: 30px;
+    height: 23px;
+    position: relative;
+    top: 80px;
+}
+.icon {
+    position: relative;
+    left: 140px;
+    bottom: 40px;
+    background: none;
+    color: inherit;
+}
+.sh-subtotaal {
+    position: relative;
+    font-size: 30px;
+    float: right;
+}
+.sh-totaal {
+    float: right;
+    font-size: 30px;
+    margin: 20px;
+}
+.sh-bg {
+    float: right;
+    margin: 20px;
+}
+.no-sh {
+    margin: auto;
+    font-size: 40px;
+    position: relative;
+    left: 600px;
+    top: 200px;
+}
+
+.po-but {
+    position: relative;
+    left: 400px;
+}
+
+.po-title {
+    margin: 200px 300px 50px 400px;
+}
+
+.po-box {
+    background-color: #e3e3e3;
+    height: 260px;
+    margin: 0 400px 0 400px;
+}
+
+.bg-table-row-dark {
+    background-color: #c8c8c8 !important;
+}
+.bg-table-row-light {
+    background-color: #F9F9F9 !important;
+}
